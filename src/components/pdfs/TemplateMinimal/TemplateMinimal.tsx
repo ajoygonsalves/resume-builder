@@ -258,8 +258,7 @@ const TemplateMinimal = () => {
                   click submit to render the PDF.
                 </Text>
                 <Text style={styles.welcomeMessage}>
-                  This is a heavily opinionated resume template inspired by
-                  Matthew Butterick with a couple of goals:
+                  This is a heavily opinionated resume template, its goals are:
                 </Text>
                 <Text style={styles.welcomeMessage}>- Unique minimal look</Text>
                 <Text style={styles.welcomeMessage}>
