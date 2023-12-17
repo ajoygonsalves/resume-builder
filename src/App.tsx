@@ -3,6 +3,7 @@ import FormAggregate from "./components/forms/FormAggregate/FormAggregate";
 import TemplateMinimal from "./components/pdfs/TemplateMinimal/TemplateMinimal";
 import { ResumeDataProvider } from "./contexts/ResumeDataContext";
 import { ThemeProvider } from "./contexts/theme-provider";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <FormAggregate />
           <TemplateMinimal />
         </div>
+        <Analytics />
       </ResumeDataProvider>
     </ThemeProvider>
   );
