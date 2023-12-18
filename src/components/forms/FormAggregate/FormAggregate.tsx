@@ -1,5 +1,4 @@
 import { useForm, FormProvider } from "react-hook-form";
-import { DevTool } from "@hookform/devtools";
 import { PersonalInfoForm } from "../PersonalInfoForm";
 import WorkExperienceForm from "@/components/forms/WorkExperienceForm/WorkExperienceForm";
 import EducationExperienceForm from "@/components/forms/EducationExperienceForm/EducationExperienceForm";
@@ -84,8 +83,6 @@ const FormAggregate = () => {
             </TabsContent>
             {/* Skills */}
           </form>
-
-          <DevTool control={methods.control} />
         </FormProvider>
       </Tabs>
     </div>
